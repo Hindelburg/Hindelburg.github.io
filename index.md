@@ -25,6 +25,9 @@
 					<a href="eagh">
 						Homework 1
 					<a>
+					<a href="eagh">
+						Homework 2
+					<a>
 				</li>
 			</ul>
 		</p>
