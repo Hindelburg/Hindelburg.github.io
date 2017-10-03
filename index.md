@@ -24,10 +24,10 @@
 				<li>
 					<a href="eagh">
 						Homework 1
-					<a>
+					</a>
 					<a href="eagh">
 						Homework 2
-					<a>
+					</a>
 				</li>
 			</ul>
 		</p>
