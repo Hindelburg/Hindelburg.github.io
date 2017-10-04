@@ -31,7 +31,7 @@
 		<p>
 			<ul>
 				<li>
-					<a href="eagh">
+					<a href="homework1.md">
 						Homework 1
 					</a>
 				</li>
