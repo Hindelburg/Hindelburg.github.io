@@ -1,3 +1,7 @@
+---
+title: Portfolio
+layout: default
+---
 
 <header>
 	<title>
