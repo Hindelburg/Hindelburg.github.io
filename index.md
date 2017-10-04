@@ -1,5 +1,8 @@
 
 <header>
+	<title>
+		Portfolio
+	</title>
 </header>
 
 <body>
@@ -40,7 +43,6 @@
 			</ul>
 		</p>
 	</section>
-
 </body>
 
 
