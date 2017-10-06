@@ -7,42 +7,33 @@
 
 <body>
 	<h1>
-		460 Portfolio 
+		Homework 1 
 	</h1>
 	<p>
-		This is a portfolio for the projects on CS460. It functions as a hub to pages for each homework assignment.
+		The objective for this assignment is to create a website using HTML. CSS files are used for styling, primarily 
+		Bootstrap, which is a common CSS file for web developement. Along with HTML and CSS, we are using Git, which 
+		can be used for version control in a project.
 	</p>
     <h2>
-        William Leingang
-    </h2>
+		Step 1: Git & Github
+	</h2>
     <p class="view">
-		I am a senior at Western Oregon University, studying computer science. I've coded in C++, Python, Java, HTML, and POVRay.
-    </p>
-	<section>
-		<h2>
-			CS 460: Code
-		</h2>
-		<p>
-			This is the repository that stores the code for CS 460. <a href="https://github.com/Hindelburg/Website1"> Git repository</a>
-		</p>
-		<h2>
-			CS 460: Homework
-		</h2>
-		<p>
-			<ul>
-				<li>
-					<a href="Homework/homework1/">
-						Homework 1
-					</a>
-				</li>
-				<li>
-					<a href="eagh">
-						Homework 2
-					</a>
-				</li>
-			</ul>
-		</p>
-	</section>
+		<code>
+			"git init
+			git add .
+			git commit -m "Initialized website pages."
+		</code>
+	</p>
+	<h2>
+		Step 2: HTML
+	</h2>
+	<p class="view">
+	</p>
+	<h2>
+		Step 3: CSS
+	</h2>
+	<p class="view">
+	</p>
 </body>
 
 
