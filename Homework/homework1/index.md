@@ -18,11 +18,11 @@
 		Step 1: Git & Github
 	</h2>
     <p class="view">
-		<code>
-			"git init
+		```bash
+			git init
 			git add .
 			git commit -m "Initialized website pages."
-		</code>
+		```
 	</p>
 	<h2>
 		Step 2: HTML
