@@ -26,7 +26,8 @@ git push origin master
 After checking my github account to make sure the project was properly pushed to the site. Note that many versions were 
 both commited and pushed as the project was developed.
 
-##	Step 2: HTML
+## Step 2: HTML
+### Page 1
 I first created an html file and opened it with Visual Studios to edit it. Before I began actually creating a website
 I included all the things I thought would be useful, based off of what I'd found on the interent. First I included
 Bootstrap and my own custom css file, which at this point was empty. Then I included jQuery and JavaScript. Neither of
@@ -45,6 +46,9 @@ anyways.
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 ```
+I then added the title of the webpage, and some initial metadata. The concept of this website is a prompt generator.
+I've worked with sentence generation with python in the past and really want to make it an actual thing. None of that
+is actually implemented in this website, it is simply a shell that it could later be inserted into. 
 
 ```html
     <html>
@@ -52,10 +56,10 @@ anyways.
         Story Prompt Generator V0.0
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-        <link rel="stylesheet" href="w3.css">
-    </head>
 ```
+
+I then created the main header, using the class jumbotron across the entire body of the page. I created a navigation
+bar as well which links to all the other main pages of the website. 
 
 ```html
     <!--title-->
@@ -64,7 +68,6 @@ anyways.
             <h1 class="text-center">
                 Prompt Generator
             </h1>
-
 
             <!--Navigation Bar-->
             <font size="4">
@@ -76,39 +79,45 @@ anyways.
                         </div>
                     </nav>
             </font>
-            
+```
 
+These buttons along this side would change the prompt generator to generate the appropriate type of prompt. However, this
+this is only a shell, they simply link back to the same page.
+
+```html
             <!--Buttons-->
             <font size="5">
                 <div class="col-sm-2" style="background-color:lightgray">
-                    <a href="eta" class="button">
+                    <a href="WebsiteV1.html" class="button">
                         Concepts
                     </a>
                     <br />
-                    <a href="eta" class="button">
+                    <a href="WebsiteV1.html" class="button">
                         Sentences
                     </a>
                     <br />
-                    <a href="eta" class="button">
+                    <a href="WebsiteV1.html" class="button">
                         Characters
                     </a>
                     <br />
-                    <a href="eta" class="button">
+                    <a href="WebsiteV1.html" class="button">
                         Settings
                     </a>
                     <br />
-                    <a href="eta" class="button">
+                    <a href="WebsiteV1.html" class="button">
                         Styles
                     </a>
                     <br />
-                    <a href="eta" class="button">
+                    <a href="WebsiteV1.html" class="button">
                         Chains
                     </a>
                     <br />
                 </div>
             </font>
+```
+There is then a block of text which explains how to use the website, if it were operational. 
 
-            
+```html 
             <!--Block Text-->
             <div>
                 <p class="col-sm-10">
@@ -118,14 +127,12 @@ anyways.
                 </p>
             </div>
         </div>
-
-        <div style="position: absolute; bottom: 5px; background-color: white">
-            wleingang15@mail.wou.edu
-        </div>
     </div>
     </body>
 </div>
 ```
+
+### Page 2
 
 ##	Step 3: CSS
 
