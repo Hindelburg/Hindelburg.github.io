@@ -46,6 +46,7 @@ anyways.
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 ```
+
 I then added the title of the webpage, and some initial metadata. The concept of this website is a prompt generator.
 I've worked with sentence generation with python in the past and really want to make it an actual thing. None of that
 is actually implemented in this website, it is simply a shell that it could later be inserted into. 
@@ -115,7 +116,8 @@ this is only a shell, they simply link back to the same page.
                 </div>
             </font>
 ```
-There is then a block of text which explains how to use the website, if it were operational. 
+There is then a block of text which explains how to use the website, if it were operational. I have it as a column because
+of the sidebar of buttons on the left.
 
 ```html 
             <!--Block Text-->
@@ -133,6 +135,9 @@ There is then a block of text which explains how to use the website, if it were 
 ```
 
 ### Page 2
+
+
+
 
 ##	Step 3: CSS
 
