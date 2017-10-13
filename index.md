@@ -36,7 +36,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="eagh">
+					<a href="Homework/homework2/">
 						Homework 2
 					</a>
 				</li>
