@@ -8,6 +8,8 @@ The objective for this assignment is to create a website using HTML. CSS files a
 Bootstrap, which is a common CSS file for web developement. Along with HTML and CSS, we are using Git, which 
 can be used for version control in a project.
 
+[Last version of website before homework 2](https://github.com/Hindelburg/Website1/tree/6d0479d004ee7568ce1fcd042f2310322a352e7e)
+
 ##	Step 1: Git & Github
 
 I configured my git to be able to synchronize it to my github account. Then I initialized the repository and

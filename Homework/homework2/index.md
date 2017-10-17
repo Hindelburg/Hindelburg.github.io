@@ -39,6 +39,8 @@ While it still does not generate actual prompts, it now displays placeholders in
 ### HTML
 Before going into the actual javascript file, I'm going to cover all the changes I made to the original html and CSS documents.
 
+<br/>
+
 First I made these buttons call the javascript method "setText" that I created. I also added a class to them so I could
 easily use my css file to format them if I wanted to. 
 
@@ -121,7 +123,42 @@ function setText(type) {
 
 I initalize the variable to concept to match the default title. 
 
+<br/>
 
+I then made another method that was called by pressing the "Generate" button shown earlier. This method simply puts 
+a placeholder where the prompt would go. There are, however, two distinctly different prompt types: character and 
+chain. Character creates a table which holds a number of character attributes such as name and age. Chain creates a list
+of multiple sentences. You can select how many sentences you want up to a max of 5. If you enter other values into this field,
+nothing happens. 
 
-
+```javascript
+function generatePrompt() {
+    if (storedType == 'Concept') {
+        document.getElementById('GenerationField').innerHTML = storedType + " Prompt Placeholder."
+    }
+    else if (storedType == 'Sentence') {
+        document.getElementById('GenerationField').innerHTML = storedType + " Prompt Placeholder."
+    }
+    else if (storedType == 'Chain') {
+        var i2 = document.getElementById("info").value;
+        $('.chainList').remove();
+        $(".GenerationField").append("<ol, class='chainList'></ol>");
+        var i = 0;
+        while(i < i2 && i < 5){
+            $(".chainList").append("<li>Chain Prompt Placeholder.</li>");
+            i++;
+        }
+    }
+    else if (storedType == 'Setting') {
+        document.getElementById('GenerationField').innerHTML = storedType + " Prompt Placeholder."
+    }
+    else if (storedType == 'Style') {
+        document.getElementById('GenerationField').innerHTML = storedType + " Prompt Placeholder."
+    }
+    else {
+        $('.Character').remove();
+        $(".GenerationField").append("<table style='width:100%', class='Character'><tr><th>First</th><th>Lastname</th><th>Age</th><th>Profession</th></tr ><tr><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr></table>");
+    }
+}
+```
 
