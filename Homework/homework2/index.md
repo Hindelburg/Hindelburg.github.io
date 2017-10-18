@@ -10,7 +10,10 @@ modifications to the css file because I wasn't completely satisfied with how my 
 isn't great, but that's just because I'm bad at web design. 
 
 [Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html)
-[Website with Javascript](https://github.com/Hindelburg/Website1)
+
+[Code for Website with Javascript](https://github.com/Hindelburg/Website1)
+
+[Website with Javascript](https://hindelburg.github.io/Homework/homework2/Code/WebsiteV1)
 
 ##	Step 1: Git Branching
 

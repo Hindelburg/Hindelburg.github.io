@@ -10,7 +10,11 @@ can be used for version control in a project.
 
 
 [Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html)
-[Last version of website before homework 2](https://github.com/Hindelburg/Website1/tree/6d0479d004ee7568ce1fcd042f2310322a352e7e)
+
+[Code for Last version of website before homework 2](https://github.com/Hindelburg/Website1/tree/6d0479d004ee7568ce1fcd042f2310322a352e7e)
+
+[Website](https://hindelburg.github.io/Homework/homework1/Code/WebsiteV1)
+
 
 ##	Step 1: Git & Github
 
