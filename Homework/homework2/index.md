@@ -169,3 +169,8 @@ function generatePrompt() {
 }
 ```
 
+## Screenshots:
+
+Here's a screenshot of the website fully rendered.
+
+[Shouldn't see this.](Screenshot.png)

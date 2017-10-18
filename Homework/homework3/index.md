@@ -551,8 +551,19 @@ Here's the Java interface before conversion to C#. However, I removed the commen
 
 ```java
 
-/** Java Interface defining a Stack. */public interface StackADT{	public Object push(Object newItem);	public Object pop();		public Object peek();		public boolean isEmpty();		public void clear();}
+/** Java Interface defining a Stack. */
+public interface StackADT
+{
+	public Object push(Object newItem);
 
+	public Object pop();
+	
+	public Object peek();
+	
+	public boolean isEmpty();
+	
+	public void clear();
+}
 ```
 
 Here it is after conversion.  Basically just removed the visibility modifiers here and added an "I" 
@@ -576,5 +587,6 @@ namespace Calculator
         void Clear();
     }
 }
-
 ```
+
+[Shouldn't see this.](Screenshot.png)
