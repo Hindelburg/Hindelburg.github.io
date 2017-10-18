@@ -173,4 +173,4 @@ function generatePrompt() {
 
 Here's a screenshot of the website fully rendered.
 
-[Shouldn't see this.](Screenshot.png)
+[Screenshot](Screenshot.png)

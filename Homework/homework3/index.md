@@ -589,4 +589,6 @@ namespace Calculator
 }
 ```
 
-[Shouldn't see this.](Screenshot.png)
+This is an example of the program being used. 
+
+[Screenshot](Screenshot.png)
