@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<div>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="this.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <html>
+    <title>
+        Story Prompt Generator V0.0
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--title-->
+    <body class="jumbotron">
+        <div>
+            <h1 class="text-center">
+                Prompt Generator
+            </h1>
+
+
+            <!--Navigation Bar-->
+            <font size="4">
+                    <nav class="navbar navbar-default">
+                        <div class="padding">
+                            <a href="WebsiteV1.html">Home</a> 
+                            <a href="WebsiteV1About.html">About</a> 
+                            <a href="WebsiteV1Features.html">Features</a>
+                        </div>
+                    </nav>
+            </font>
+
+            
+            <font size="5">
+                <div class="col-sm-3 sideBar"  style="background-color:lightgray">
+                    <button type="button" onclick="setText('Concept')", class="SideButton">
+                        Concepts
+                    </button>
+                    <br />
+                    <button type="button" onclick="setText('Sentence')" , class="SideButton">
+                        Sentences
+                    </button>
+                    <br />
+                    <button type="button" onclick="setText('Character')" , class="SideButton">
+                        Characters
+                    </button>
+                    <br />
+                    <button type="button" onclick="setText('Setting')" , class="SideButton">
+                        Settings
+                    </button>
+                    <br />
+                    <button type="button" onclick="setText('Style')" , class="SideButton">
+                        Styles
+                    </button>
+                    <br />
+                    <button type="button" onclick="setText('Chain')" , class="SideButton">
+                        Chains
+                    </button>
+                    <br />
+                </div>
+            </font>
+
+            
+            <div class="col-sm-9">
+                <p>
+                    To use prompt generator, select which style of story prompt you want to have generated on the 
+                    left side. None of these links are yet operational due to the actual prompt generating
+                    software is still in developement.
+                </p>
+                <font size="4">
+                    <div class="titleRow", id="Title">
+                            Concept Generator
+                    </div>
+                </font>
+                <p class="GenerationField" id="GenerationField">
+
+                </p>
+                <div class="buttonRow">
+                    <button type="button" id="GenerateButton" onclick="generatePrompt()"">
+                        Generate
+                    </button>
+                </div>
+
+
+</div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
