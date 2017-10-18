@@ -589,6 +589,8 @@ namespace Calculator
 }
 ```
 
+## Screenshots:
+
 This is an example of the program being used. 
 
 [Screenshot](Screenshot.png)
