@@ -8,6 +8,8 @@ The objective for this assignment is to create a website using HTML. CSS files a
 Bootstrap, which is a common CSS file for web developement. Along with HTML and CSS, we are using Git, which 
 can be used for version control in a project.
 
+
+[Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html)
 [Last version of website before homework 2](https://github.com/Hindelburg/Website1/tree/6d0479d004ee7568ce1fcd042f2310322a352e7e)
 
 ##	Step 1: Git & Github
@@ -54,69 +56,69 @@ I've worked with sentence generation with python in the past and really want to 
 is actually implemented in this website, it is simply a shell that it could later be inserted into. 
 
 ```html
-    <html>
-    <title>
-        Story Prompt Generator V0.0
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<title>
+    Story Prompt Generator V0.0
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
 I then created the main header, using the class jumbotron across the entire body of the page. I created a navigation
 bar as well which links to all the other main pages of the website. 
 
 ```html
-    <!--title-->
-    <body class="jumbotron">
-        <div>
-            <h1 class="text-center">
-                Prompt Generator
-            </h1>
+<!--title-->
+<body class="jumbotron">
+    <div>
+        <h1 class="text-center">
+            Prompt Generator
+        </h1>
 
-            <!--Navigation Bar-->
-            <font size="4">
-                    <nav class="navbar navbar-default">
-                        <div class="padding">
-                            <a href="WebsiteV1.html">Home</a> 
-                            <a href="WebsiteV1About.html">About</a> 
-                            <a href="WebsiteV1Features.html">Features</a>
-                        </div>
-                    </nav>
-            </font>
+        <!--Navigation Bar-->
+        <font size="4">
+                <nav class="navbar navbar-default">
+                    <div class="padding">
+                        <a href="WebsiteV1.html">Home</a> 
+                        <a href="WebsiteV1About.html">About</a> 
+                        <a href="WebsiteV1Features.html">Features</a>
+                    </div>
+                </nav>
+        </font>
 ```
 
 These buttons along this side would change the prompt generator to generate the appropriate type of prompt. However, this
 this is only a shell, they simply link back to the same page.
 
 ```html
-            <!--Buttons-->
-            <font size="5">
-                <div class="col-sm-2" style="background-color:lightgray">
-                    <a href="WebsiteV1.html" class="button">
-                        Concepts
-                    </a>
-                    <br />
-                    <a href="WebsiteV1.html" class="button">
-                        Sentences
-                    </a>
-                    <br />
-                    <a href="WebsiteV1.html" class="button">
-                        Characters
-                    </a>
-                    <br />
-                    <a href="WebsiteV1.html" class="button">
-                        Settings
-                    </a>
-                    <br />
-                    <a href="WebsiteV1.html" class="button">
-                        Styles
-                    </a>
-                    <br />
-                    <a href="WebsiteV1.html" class="button">
-                        Chains
-                    </a>
-                    <br />
-                </div>
-            </font>
+<!--Buttons-->
+<font size="5">
+    <div class="col-sm-2" style="background-color:lightgray">
+        <a href="WebsiteV1.html" class="button">
+            Concepts
+        </a>
+        <br />
+        <a href="WebsiteV1.html" class="button">
+            Sentences
+        </a>
+        <br />
+        <a href="WebsiteV1.html" class="button">
+            Characters
+        </a>
+        <br />
+        <a href="WebsiteV1.html" class="button">
+            Settings
+        </a>
+        <br />
+        <a href="WebsiteV1.html" class="button">
+            Styles
+        </a>
+        <br />
+        <a href="WebsiteV1.html" class="button">
+            Chains
+        </a>
+        <br />
+    </div>
+</font>
 ```
 There is then a block of text which explains how to use the website, if it were operational. I have it as a column because
 of the sidebar of buttons on the left.

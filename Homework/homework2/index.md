@@ -4,9 +4,13 @@ layout: default
 ---
 # Homework 2 
 
-The objective for this assignment is to create a website using HTML. CSS files are used for styling, primarily 
-Bootstrap, which is a common CSS file for web developement. Along with HTML and CSS, we are using Git, which 
-can be used for version control in a project.
+For this lab, we were supposed to add Javascript functionality to our webpages. We also were supposed
+to use the branch and merge features for git version control. In addition to this, I did make some
+modifications to the css file because I wasn't completely satisfied with how my page looked. It still
+isn't great, but that's just because I'm bad at web design. 
+
+[Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html)
+[Website with Javascript](https://github.com/Hindelburg/Website1)
 
 ##	Step 1: Git Branching
 
