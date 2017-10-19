@@ -10,7 +10,9 @@
 		460 Portfolio 
 	</h1>
 	<p>
-		This is a portfolio for the projects on CS460. It functions as a hub to pages for each homework assignment.
+		This is a portfolio for the projects for CS460. It functions as a hub to pages for each homework assignment.
+		Each link goes to a seperate page for each of the homeworks. In the future it will also hold
+		a page that links to my notes. These notes have not yet been digitized, so that link does not yet exist.
 	</p>
     <h2>
         William Leingang
