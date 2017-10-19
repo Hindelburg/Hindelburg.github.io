@@ -30,6 +30,14 @@ git checkout test3
 It was called test3, obviously showing that I'd already failed twice. I am still not sure what was wrong with my first 
 two, but they branched with a less than up-to-date version of my code. 
 
+However, I did eventually get it to work here. After a couple of commits, I then remerged the branch into
+main, like so.
+
+```bash
+git checkout master
+git merge test3
+```
+
 ## Step 2: Javascript
 I'd already included javascript in my html file during homework 1, so all I had to do was add a line to include my .js
 file.
