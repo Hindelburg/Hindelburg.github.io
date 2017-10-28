@@ -47,6 +47,11 @@
 						Homework 3
 					</a>
 				</li>
+				<li>
+					<a href="Homework/homework4/">
+						Homework 4
+					</a>
+				</li>
 			</ul>
 		</p>
 	</section>
