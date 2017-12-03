@@ -57,6 +57,26 @@
 						Homework 5
 					</a>
 				</li>
+				<li>
+					<a href="Homework/homework6/">
+						Homework 6
+					</a>
+				</li>
+				<li>
+					<a href="Homework/homework7/">
+						Homework 7
+					</a>
+				</li>
+				<li>
+					<a href="Homework/homework8/">
+						Homework 8
+					</a>
+				</li>
+				<li>
+					<a href="Homework/homework9/">
+						Homework 9
+					</a>
+				</li>
 			</ul>
 		</p>
 	</section>
